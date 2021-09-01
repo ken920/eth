@@ -1,0 +1,8 @@
+# yum install -y glibc glibc-common glibc-devel glibc-headers glibc-static glibc-utils
+# yum install -y gcc
+# yum install -y gawk
+
+# wget http://ftp.gnu.org/gnu/glibc/glibc-2.18.tar.gz
+# tar -xvf glibc-2.18.tar.gz 
+# cd glibc-2.18
+# mkdir build && cd build && ../configure --prefix=/usr && make -j4 && make install
